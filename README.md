@@ -18,6 +18,12 @@
  pip install numpy == 1.20
  pip install cvxpy
  ```
+ 
+ ```bash
+$ source devel/setup.bash
+$ rosrun mpc_contoller visualizer.py "
+```
+`$ rosrun mpc_contoller mpc.py "`
 
 
 # Polaris GEM e2 Simulator
@@ -80,3 +86,18 @@ For more detail about Catkin workspace, please refer to the tutorials at http://
 $ source devel/setup.bash
 $ roslaunch gem_gazebo gem_gazebo_rviz.launch velodyne_points:="true"
 ```
+
+# Docker
+
+**To build a docker image folllow this steps**:
+
++ clone this repo on your prefered directory [robotics_integration_assignment] (https://github.com/jamesjamal/robotics_integration_assignment.git)
++ naviagate to docker folder
++`sudo docker build -t <prefered_image_name>`
++`sudo docker run -it <iamge_name>'
++ cd ~/catkin_ws
++ source devel/setup.bash
+
+
+
+
