@@ -89,7 +89,7 @@ $ roslaunch gem_gazebo gem_gazebo_rviz.launch velodyne_points:="true"
 
 # Docker
 
-**To build a docker image folllow this steps**:
+**To build a docker image folllow this steps:**
 
 + clone this repo on your prefered directory [robotics_integration_assignment] (https://github.com/jamesjamal/robotics_integration_assignment.git)
 + naviagate to docker folder
