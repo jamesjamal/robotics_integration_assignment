@@ -15,7 +15,7 @@
 **To install python Packages**:
 
 ```bash
- pip install numpy
+ pip install numpy == 1.20
  pip install cvxpy
  ```
 
