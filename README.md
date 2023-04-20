@@ -38,12 +38,14 @@ After the installation of ROS Noetic and Gazebo 11 on Ubuntu 20.04, we recommend
 Compile Polaris GEM e2 Simulator
 We assume the Catkin workspace is under ~/gem_ws. We first clone this repository to ~/gem_ws/src.
 For example,
+
 '''
 $ mkdir -p ~/gem_ws/src
 $ cd ~/gem_ws/src
 $ git clone (https://gitlab.engr.illinois.edu/gemillins/POLARIS_GEM_e2.git)
 Then we compile the whole workspace use catkin_make
 '''
+
 '''
 $ source /opt/ros/noetic/setup.bash
 $ cd ~/gem_ws
