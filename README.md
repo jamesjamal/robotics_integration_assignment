@@ -97,6 +97,7 @@ $ roslaunch gem_gazebo gem_gazebo_rviz.launch velodyne_points:="true"
 + `sudo docker run -it <iamge_name>`
 + cd ~/catkin_ws
 + source devel/setup.bash
++ `catkin_make`
 + `roslaunch gem_gazebo gem_gazebo_rviz.launch velodyne_points:="true"`
 + `rosrun mpc_controller visualizer.py`
 + `rosrun mpc_controller mpc.py`
