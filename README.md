@@ -30,11 +30,10 @@ ros_controllers
 velodyne_simulator**
 
 After the installation of ROS Noetic and Gazebo 11 on Ubuntu 20.04, we recommend installing ROS packages using APT as follows
-```
- $ sudo apt install ros-noetic-ackermann-msgs ros-noetic-geometry2 \
+
+``` $ sudo apt install ros-noetic-ackermann-msgs ros-noetic-geometry2 \
     ros-noetic-hector-gazebo ros-noetic-hector-models ros-noetic-jsk-rviz-plugins \
-    ros-noetic-ros-control ros-noetic-ros-controllers ros-noetic-velodyne-simulator
-```
+    ros-noetic-ros-control ros-noetic-ros-controllers ros-noetic-velodyne-simulator ```
 Compile Polaris GEM e2 Simulator
 We assume the Catkin workspace is under ~/gem_ws. We first clone this repository to ~/gem_ws/src.
 For example,
