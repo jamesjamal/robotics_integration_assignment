@@ -94,9 +94,12 @@ $ roslaunch gem_gazebo gem_gazebo_rviz.launch velodyne_points:="true"
 + clone this repo on your prefered directory [robotics_integration_assignment] (https://github.com/jamesjamal/robotics_integration_assignment.git)
 + naviagate to docker folder
 + `sudo docker build -t <prefered_image_name>`
-+ `sudo docker run -it <iamge_name>'
++ `sudo docker run -it <iamge_name>`
 + cd ~/catkin_ws
 + source devel/setup.bash
++ `roslaunch gem_gazebo gem_gazebo_rviz.launch velodyne_points:="true"`
++ `rosrun mpc_controller visualizer.py`
++ `rosrun mpc_controller mpc.py`
 
 
 
