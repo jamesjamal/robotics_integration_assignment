@@ -7,16 +7,17 @@
 
 ### Requirements for mpc controller
 
-C**Required ROS Packages**:
+**Required Python Packages**:
 
 + numpy version >= 1.20
 + cvxpy
 
-C**To install Packages**:
+**To install python Packages**:
 
 ```bash
-    pip install numpy
-    pip install cvxpy```
+ pip install numpy
+ pip install cvxpy
+ ```
 
 
 # Polaris GEM e2 Simulator
